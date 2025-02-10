@@ -1,0 +1,29 @@
+{
+    "name": "XSpaceV10",
+    "version": "1.0.0",
+    "description": "Library used for XSpace v1.0 Boards",
+    "keywords": "walle, TB6612FNG, xspace, xspacev10, robot, arduino",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/TheXSpaceAcademy/XSpaceV10"
+    },
+    "authors":
+    [
+      {
+        "name": "The XSpace Academy",
+        "email": "p.cardenasc@xspace.pe",
+        "url": "http://xspace.pe",
+        "maintainer": true
+      }
+    ],
+    "export": {
+      "exclude":
+      [
+          "test/*"
+      ]
+    },
+    "license": "MIT",
+    "frameworks": ["Arduino"],
+    "platforms": ["atmelavr"]
+  }
