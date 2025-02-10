@@ -4,6 +4,14 @@
 #define MOTOR_A 0
 #define MOTOR_B 1
 
+#define SERVO_D 2  
+#define SERVO_I 3
+#define SERVO_C 11
+
+extern volatile double servoD_pos;
+extern volatile double servoI_pos;
+extern volatile double servoC_pos;
+
 struct xTB6612FNG{
   int STBY;
 	int xIN1[2];
@@ -25,10 +33,14 @@ class WalleRobot{
     XSpaceV10Board XSBoard;
   public:
     void init();
-    void avanzar(double power);
-    void retroceder(double power);
-    void rotarDerecha(double power);
-    void rotarIzquierda(double power);
+    void Avanzar(double power);
+    void Retroceder(double power);
+    void GirarDerecha(double power);
+    void GirarIzquierda(double power);
+
+    void BrazoDerecho(double power);
+    void BrazoIzquierdo(double power);
+    void Cabeza(double power);
 };
 
 

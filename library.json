@@ -1,6 +1,6 @@
 {
     "name": "XSpaceV10",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Library used for XSpace v1.0 Boards",
     "keywords": "walle, TB6612FNG, xspace, xspacev10, robot, arduino",
     "repository":
